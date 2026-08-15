@@ -42,8 +42,6 @@ void a3() {
   const double alqueireGoiano = 4.84;
   final DateTime dataAtual = DateTime.now();
 
-  // Se tentarmos usar: const DateTime dataAtual = DateTime.now();
-  // Erro de compilação: "The expression launched is not a constant expression."
   /*
     Explicação:
       Se tentarmos usar "const DateTime dataAtual = DateTime.now();",
