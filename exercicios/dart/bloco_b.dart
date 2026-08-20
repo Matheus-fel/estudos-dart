@@ -34,6 +34,7 @@ void b2(){
   */
 
   // Correção usando ?.
+  // ignore: dead_null_aware_expression, dead_code
   print('Tamanho do telefone: ${telefone?.length}');
 }
 
